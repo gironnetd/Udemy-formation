@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Carte Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CarteController" customModule="Les_monuments_franc_ais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KPf-aU-Y3y">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWy-si-VT1">
+                                        <rect key="frame" x="8" y="10" width="125" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125" id="hBN-Mo-I1H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Me localiser">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="meLocaliser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DhU-hW-oUN"/>
+                                        </connections>
+                                    </button>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pWL-Es-52w">
+                                        <rect key="frame" x="141" y="11.5" width="226" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="Ddh-hh-8cf"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="Standart"/>
+                                            <segment title="Satelitte"/>
+                                            <segment title="Hybride"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="segmentChoisir:" destination="BYZ-38-t0r" eventType="valueChanged" id="FGC-KO-R2B"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pWL-Es-52w" firstAttribute="leading" secondItem="JWy-si-VT1" secondAttribute="trailing" constant="8" id="7bS-6s-Jwt"/>
+                                    <constraint firstItem="JWy-si-VT1" firstAttribute="leading" secondItem="KPf-aU-Y3y" secondAttribute="leading" constant="8" id="9rC-s2-TQ4"/>
+                                    <constraint firstItem="pWL-Es-52w" firstAttribute="centerY" secondItem="KPf-aU-Y3y" secondAttribute="centerY" id="OJ7-A8-w0W"/>
+                                    <constraint firstItem="JWy-si-VT1" firstAttribute="top" secondItem="KPf-aU-Y3y" secondAttribute="top" constant="10" id="lfK-4H-nxm"/>
+                                    <constraint firstAttribute="trailing" secondItem="pWL-Es-52w" secondAttribute="trailing" constant="8" id="mzB-zb-ybL"/>
+                                    <constraint firstAttribute="height" constant="50" id="qyi-To-7so"/>
+                                    <constraint firstAttribute="bottom" secondItem="JWy-si-VT1" secondAttribute="bottom" constant="10" id="rm0-8w-ZtB"/>
+                                </constraints>
+                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BIX-5Q-J9o">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KPf-aU-Y3y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3kO-1g-NEO"/>
+                            <constraint firstItem="BIX-5Q-J9o" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BoF-hR-4bF"/>
+                            <constraint firstItem="KPf-aU-Y3y" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="G9T-if-j9b"/>
+                            <constraint firstItem="KPf-aU-Y3y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wu2-O5-d3B"/>
+                            <constraint firstItem="KPf-aU-Y3y" firstAttribute="top" secondItem="BIX-5Q-J9o" secondAttribute="bottom" id="ihd-rB-UX7"/>
+                            <constraint firstItem="BIX-5Q-J9o" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pLL-vK-TFZ"/>
+                            <constraint firstItem="BIX-5Q-J9o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="v2Q-Nl-79O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="carte" destination="BIX-5Q-J9o" id="2J7-BL-ULg"/>
+                        <outlet property="maPositionBouton" destination="JWy-si-VT1" id="Qdh-XR-hAD"/>
+                        <outlet property="segment" destination="pWL-Es-52w" id="RgI-se-IeW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

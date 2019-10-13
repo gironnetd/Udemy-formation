@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Codabeille" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ma première application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="vZV-aN-3bi">
+                                <rect key="frame" x="20" y="44" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EHT-cV-hhZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxf-Xu-8Gd">
+                                <rect key="frame" x="20" y="718" width="335" height="40"/>
+                                <color key="backgroundColor" red="0.99193488389988904" green="1" blue="0.053731672886955018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="cMC-dH-aj4"/>
+                                    <constraint firstAttribute="height" constant="40" id="jd5-8a-u9U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="boutonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gub-j6-tJu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="abeille1" translatesAutoresizingMaskIntoConstraints="NO" id="oR4-Tn-5Wy">
+                                <rect key="frame" x="20" y="126" width="335" height="584"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sxf-Xu-8Gd" secondAttribute="bottom" constant="20" id="2Ea-ff-UvZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sxf-Xu-8Gd" secondAttribute="bottom" constant="20" id="6ky-BP-tih"/>
+                            <constraint firstItem="vZV-aN-3bi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7DC-i9-Nyn"/>
+                            <constraint firstItem="Sxf-Xu-8Gd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9ye-cf-G0Z"/>
+                            <constraint firstItem="Sxf-Xu-8Gd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AbW-Kh-WS3"/>
+                            <constraint firstItem="Sxf-Xu-8Gd" firstAttribute="top" secondItem="oR4-Tn-5Wy" secondAttribute="bottom" constant="20" id="B56-od-Yee"/>
+                            <constraint firstItem="vZV-aN-3bi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GdF-EA-F3R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sxf-Xu-8Gd" secondAttribute="trailing" constant="20" id="HgB-CJ-uSf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sxf-Xu-8Gd" secondAttribute="bottom" constant="20" id="JG2-EN-Sf9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sxf-Xu-8Gd" secondAttribute="trailing" constant="20" id="PnM-c2-2d2"/>
+                            <constraint firstItem="Sxf-Xu-8Gd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qpy-F0-ZLn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vZV-aN-3bi" secondAttribute="trailing" constant="20" id="Tku-x0-CfN"/>
+                            <constraint firstItem="oR4-Tn-5Wy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gI2-Cq-wS6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sxf-Xu-8Gd" secondAttribute="trailing" constant="20" id="iUz-b8-MOw"/>
+                            <constraint firstItem="Sxf-Xu-8Gd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lX4-7e-xlf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oR4-Tn-5Wy" secondAttribute="trailing" constant="20" id="tDZ-Qg-cx6"/>
+                            <constraint firstItem="oR4-Tn-5Wy" firstAttribute="top" secondItem="vZV-aN-3bi" secondAttribute="bottom" constant="20" id="tnP-TH-aXa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="abeilleVue" destination="oR4-Tn-5Wy" id="PRr-Uf-YZ6"/>
+                        <outlet property="bouton" destination="Sxf-Xu-8Gd" id="EI1-Zy-JIj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="116.00985221674877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="abeille1" width="512" height="512"/>
+    </resources>
+</document>

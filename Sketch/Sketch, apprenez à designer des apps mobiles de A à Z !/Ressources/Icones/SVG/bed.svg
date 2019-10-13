@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="25px" viewBox="0 0 28 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>bed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bed">
+            <rect id="Rectangle-3" fill="#000000" x="0" y="20" width="1" height="5"></rect>
+            <rect id="Rectangle-3-Copy" fill="#000000" x="27" y="20" width="1" height="5"></rect>
+            <path d="M27.5,16.5 L0.5,16.5 L0.5,12.5 C0.5,10.2906692 2.2900251,8.5 4.49868441,8.5 L23.5013156,8.5 C25.7078637,8.5 27.5,10.294052 27.5,12.5 L27.5,16.5 Z" id="Rectangle-2" stroke="#000000"></path>
+            <path d="M24.5,8.5 L3.5,8.5 L3.5,4.5 C3.5,2.28869206 5.28898643,0.5 7.50511602,0.5 L20.494884,0.5 C22.7051416,0.5 24.5,2.29421182 24.5,4.5 L24.5,8.5 Z" id="Rectangle-2-Copy-2" stroke="#000000"></path>
+            <path d="M13.5,8.5 L5.5,8.5 L5.5,6.5 C5.5,5.3954572 6.39777609,4.5 7.50700176,4.5 L11.4929982,4.5 C12.6053868,4.5 13.5,5.38974197 13.5,6.5 L13.5,8.5 Z" id="Rectangle-2-Copy-3" stroke="#000000"></path>
+            <path d="M22.5,8.5 L14.5,8.5 L14.5,6.5 C14.5,5.3954572 15.3977761,4.5 16.5070018,4.5 L20.4929982,4.5 C21.6053868,4.5 22.5,5.38974197 22.5,6.5 L22.5,8.5 Z" id="Rectangle-2-Copy-4" stroke="#000000"></path>
+            <rect id="Rectangle-2-Copy" stroke="#000000" x="0.5" y="16.5" width="27" height="3"></rect>
+        </g>
+    </g>
+</svg>

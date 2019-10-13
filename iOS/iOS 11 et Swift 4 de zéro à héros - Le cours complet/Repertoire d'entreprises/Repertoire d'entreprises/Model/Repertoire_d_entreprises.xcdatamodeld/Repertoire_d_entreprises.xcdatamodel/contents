@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entreprise" representedClassName="Entreprise" syncable="YES" codeGenerationType="class">
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personne" inverseName="employeur" inverseEntity="Personne" syncable="YES"/>
+    </entity>
+    <entity name="Personne" representedClassName="Personne" syncable="YES" codeGenerationType="class">
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numero" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="prenom" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employeur" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entreprise" inverseName="employes" inverseEntity="Entreprise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entreprise" positionX="205" positionY="-138" width="128" height="73"/>
+        <element name="Personne" positionX="-63" positionY="-9" width="128" height="133"/>
+    </elements>
+</model>

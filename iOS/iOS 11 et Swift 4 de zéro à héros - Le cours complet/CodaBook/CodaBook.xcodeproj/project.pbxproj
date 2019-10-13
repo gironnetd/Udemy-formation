@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D38746A20D7F9CA009D7557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38746920D7F9CA009D7557 /* AppDelegate.swift */; };
+		6D38746C20D7F9CA009D7557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38746B20D7F9CA009D7557 /* ViewController.swift */; };
+		6D38746F20D7F9CA009D7557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D38746D20D7F9CA009D7557 /* Main.storyboard */; };
+		6D38747120D7F9CC009D7557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D38747020D7F9CC009D7557 /* Assets.xcassets */; };
+		6D38747420D7F9CC009D7557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D38747220D7F9CC009D7557 /* LaunchScreen.storyboard */; };
+		6D38748120D7FA9B009D7557 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D38748020D7FA9B009D7557 /* GoogleService-Info.plist */; };
+		6DE1289C20DA51800026817B /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1289B20DA51800026817B /* ConnectionController.swift */; };
+		6DE1289E20DA546B0026817B /* BoutonCodaBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1289D20DA546B0026817B /* BoutonCodaBook.swift */; };
+		6DE128A120DA54C50026817B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE128A020DA54C50026817B /* Constants.swift */; };
+		6DE128A320DA55650026817B /* LayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE128A220DA55650026817B /* LayerExtension.swift */; };
+		6DE128A520DA5CB90026817B /* Alerte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE128A420DA5CB90026817B /* Alerte.swift */; };
+		6DE128A820DA67440026817B /* FirebaseErreur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE128A720DA67440026817B /* FirebaseErreur.swift */; };
+		6DE128AA20DA75750026817B /* Refs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE128A920DA75750026817B /* Refs.swift */; };
+		D2EAAF5DBB4EF47B3BCF998B /* Pods_CodaBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37455938D9EEC56EC6458B0E /* Pods_CodaBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37455938D9EEC56EC6458B0E /* Pods_CodaBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodaBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D38746620D7F9CA009D7557 /* CodaBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D38746920D7F9CA009D7557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D38746B20D7F9CA009D7557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D38746E20D7F9CA009D7557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D38747020D7F9CC009D7557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D38747320D7F9CC009D7557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D38747520D7F9CC009D7557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D38748020D7FA9B009D7557 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DE1289B20DA51800026817B /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		6DE1289D20DA546B0026817B /* BoutonCodaBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonCodaBook.swift; sourceTree = "<group>"; };
+		6DE128A020DA54C50026817B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6DE128A220DA55650026817B /* LayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerExtension.swift; sourceTree = "<group>"; };
+		6DE128A420DA5CB90026817B /* Alerte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerte.swift; sourceTree = "<group>"; };
+		6DE128A720DA67440026817B /* FirebaseErreur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseErreur.swift; sourceTree = "<group>"; };
+		6DE128A920DA75750026817B /* Refs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refs.swift; sourceTree = "<group>"; };
+		BCF718269AA171B00275B2D3 /* Pods-CodaBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodaBook/Pods-CodaBook.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D59F54A6730FF897ACB593 /* Pods-CodaBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodaBook/Pods-CodaBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D38746320D7F9CA009D7557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EAAF5DBB4EF47B3BCF998B /* Pods_CodaBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D38745D20D7F9CA009D7557 = {
+			isa = PBXGroup;
+			children = (
+				6D38746820D7F9CA009D7557 /* CodaBook */,
+				6D38746720D7F9CA009D7557 /* Products */,
+				F886572C7B99844C6F82ADC3 /* Pods */,
+				88F71E72FE10235F6626E379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D38746720D7F9CA009D7557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D38746620D7F9CA009D7557 /* CodaBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D38746820D7F9CA009D7557 /* CodaBook */ = {
+			isa = PBXGroup;
+			children = (
+				6DE128A620DA67180026817B /* MonFirebase */,
+				6DE1289F20DA54AF0026817B /* Resources */,
+				6D38746920D7F9CA009D7557 /* AppDelegate.swift */,
+				6D38747F20D7FA5A009D7557 /* Model */,
+				6D38747E20D7FA52009D7557 /* View */,
+				6D38747D20D7FA46009D7557 /* Controller */,
+				6D38747C20D7FA3C009D7557 /* Storyboards */,
+				6D38747B20D7FA27009D7557 /* Plists */,
+				6D38747020D7F9CC009D7557 /* Assets.xcassets */,
+			);
+			path = CodaBook;
+			sourceTree = "<group>";
+		};
+		6D38747B20D7FA27009D7557 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				6D38748020D7FA9B009D7557 /* GoogleService-Info.plist */,
+				6D38747520D7F9CC009D7557 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		6D38747C20D7FA3C009D7557 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6D38747220D7F9CC009D7557 /* LaunchScreen.storyboard */,
+				6D38746D20D7F9CA009D7557 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6D38747D20D7FA46009D7557 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D38746B20D7F9CA009D7557 /* ViewController.swift */,
+				6DE1289B20DA51800026817B /* ConnectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D38747E20D7FA52009D7557 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1289D20DA546B0026817B /* BoutonCodaBook.swift */,
+				6DE128A220DA55650026817B /* LayerExtension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D38747F20D7FA5A009D7557 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DE128A420DA5CB90026817B /* Alerte.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DE1289F20DA54AF0026817B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DE128A020DA54C50026817B /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DE128A620DA67180026817B /* MonFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				6DE128A720DA67440026817B /* FirebaseErreur.swift */,
+				6DE128A920DA75750026817B /* Refs.swift */,
+			);
+			path = MonFirebase;
+			sourceTree = "<group>";
+		};
+		88F71E72FE10235F6626E379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37455938D9EEC56EC6458B0E /* Pods_CodaBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F886572C7B99844C6F82ADC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF718269AA171B00275B2D3 /* Pods-CodaBook.debug.xcconfig */,
+				F5D59F54A6730FF897ACB593 /* Pods-CodaBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D38746520D7F9CA009D7557 /* CodaBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D38747820D7F9CC009D7557 /* Build configuration list for PBXNativeTarget "CodaBook" */;
+			buildPhases = (
+				9BC03071C6E3D0E4ACD51BBC /* [CP] Check Pods Manifest.lock */,
+				6D38746220D7F9CA009D7557 /* Sources */,
+				6D38746320D7F9CA009D7557 /* Frameworks */,
+				6D38746420D7F9CA009D7557 /* Resources */,
+				9439DC20BE4831A304B4B191 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodaBook;
+			productName = CodaBook;
+			productReference = 6D38746620D7F9CA009D7557 /* CodaBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D38745E20D7F9CA009D7557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = damien;
+				TargetAttributes = {
+					6D38746520D7F9CA009D7557 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 6D38746120D7F9CA009D7557 /* Build configuration list for PBXProject "CodaBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D38745D20D7F9CA009D7557;
+			productRefGroup = 6D38746720D7F9CA009D7557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D38746520D7F9CA009D7557 /* CodaBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D38746420D7F9CA009D7557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D38747420D7F9CC009D7557 /* LaunchScreen.storyboard in Resources */,
+				6D38748120D7FA9B009D7557 /* GoogleService-Info.plist in Resources */,
+				6D38747120D7F9CC009D7557 /* Assets.xcassets in Resources */,
+				6D38746F20D7F9CA009D7557 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9439DC20BE4831A304B4B191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CodaBook/Pods-CodaBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodaBook/Pods-CodaBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC03071C6E3D0E4ACD51BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodaBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D38746220D7F9CA009D7557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE128A120DA54C50026817B /* Constants.swift in Sources */,
+				6DE128AA20DA75750026817B /* Refs.swift in Sources */,
+				6DE1289E20DA546B0026817B /* BoutonCodaBook.swift in Sources */,
+				6D38746C20D7F9CA009D7557 /* ViewController.swift in Sources */,
+				6DE128A320DA55650026817B /* LayerExtension.swift in Sources */,
+				6DE1289C20DA51800026817B /* ConnectionController.swift in Sources */,
+				6DE128A820DA67440026817B /* FirebaseErreur.swift in Sources */,
+				6DE128A520DA5CB90026817B /* Alerte.swift in Sources */,
+				6D38746A20D7F9CA009D7557 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D38746D20D7F9CA009D7557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D38746E20D7F9CA009D7557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D38747220D7F9CC009D7557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D38747320D7F9CC009D7557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D38747620D7F9CC009D7557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D38747720D7F9CC009D7557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D38747920D7F9CC009D7557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF718269AA171B00275B2D3 /* Pods-CodaBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84MT6DDGV;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaBook/Plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgironnet.CodaBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D38747A20D7F9CC009D7557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D59F54A6730FF897ACB593 /* Pods-CodaBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84MT6DDGV;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaBook/Plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgironnet.CodaBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D38746120D7F9CA009D7557 /* Build configuration list for PBXProject "CodaBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D38747620D7F9CC009D7557 /* Debug */,
+				6D38747720D7F9CC009D7557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D38747820D7F9CC009D7557 /* Build configuration list for PBXNativeTarget "CodaBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D38747920D7F9CC009D7557 /* Debug */,
+				6D38747A20D7F9CC009D7557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D38745E20D7F9CA009D7557 /* Project object */;
+}
